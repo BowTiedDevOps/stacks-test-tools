@@ -20,3 +20,4 @@ callee_filter = false
 # Add major keyword
 # Add minor keyword
 # Bump each commit
+# Run the workflow again
