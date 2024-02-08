@@ -21,3 +21,4 @@ callee_filter = false
 # Add minor keyword
 # Bump each commit
 # Run the workflow again
+# Set bump each commit to true
