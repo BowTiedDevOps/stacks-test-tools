@@ -22,3 +22,4 @@ callee_filter = false
 # Bump each commit
 # Run the workflow again
 # Set bump each commit to true
+# Add semver debug info to action output
