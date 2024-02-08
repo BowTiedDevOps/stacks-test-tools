@@ -17,4 +17,4 @@ jobs:
           change_path: "packages/clarunit"
           bump_each_commit: "true"
           bump_each_commit_patch_pattern: ""
-          search_commit_body: "false"
+          search_commit_body: "true"
