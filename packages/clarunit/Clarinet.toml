@@ -22,3 +22,4 @@ callee_filter = false
 # Bump each commit
 # Run the workflow again
 # Set bump each commit to true
+# Set searching in body for releases to true - for merges
