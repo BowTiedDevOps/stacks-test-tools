@@ -14,3 +14,10 @@ strict = false
 trusted_sender = false
 trusted_caller = false
 callee_filter = false
+
+# Test comment in order to have changes
+# Add changes
+# Add major keyword
+# Add minor keyword
+# Bump each commit
+# Run the workflow again
