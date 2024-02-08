@@ -23,3 +23,5 @@ callee_filter = false
 # Run the workflow again
 # Set bump each commit to true
 # Add semver debug info to action output
+# Change versioning pattern from increment to patch
+# Increment version
