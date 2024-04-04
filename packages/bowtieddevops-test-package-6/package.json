@@ -1,6 +1,6 @@
 {
   "name": "@bowtieddevops/bowtieddevops-test-package-6",
-  "version": "0.1.1",
+  "version": "1.1.1",
   "description": "Clarunit, enables writing unit tests in Clarity",
   "main": "src/index.ts",
   "bin": "src/cli.ts",
