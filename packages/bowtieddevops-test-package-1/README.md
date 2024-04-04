@@ -122,3 +122,5 @@ Examples:
 ;; @mine-blocks-before 5
 (define-public (test-six) (ok true))
 ```
+
+// test
