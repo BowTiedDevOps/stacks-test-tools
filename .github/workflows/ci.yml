@@ -8,6 +8,7 @@ on:
 
 jobs:
   check_version_change:
+    name: Check Version Changes
     runs-on: ubuntu-latest
     outputs:
       CHANGED: ${{steps.check_version.outputs.changed}}
@@ -54,6 +55,7 @@ jobs:
           file-name: ${{ steps.set_path.outputs.changed_manifest_path }}
 
   publish_to_npm:
+    name: Publish Changed Package
     runs-on: ubuntu-latest
     needs: check_version_change
     if: ${{ needs.check_version_change.outputs.CHANGED == 'true' }}
