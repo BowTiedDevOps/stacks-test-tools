@@ -78,4 +78,4 @@ jobs:
         run: |
           cd "$(echo '${{ needs.check_version_change.outputs.PACKAGE_PATH }}')"
           npm ci
-          npm publish --access=public
+          npm publish
